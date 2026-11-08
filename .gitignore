@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+temp_edge_profile/
+.env
+.venv/
+env/
+.vscode/
+.idea/

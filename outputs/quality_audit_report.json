@@ -1,0 +1,159 @@
+{
+  "total_promos_audited": 150,
+  "flagged_for_human_review": 4,
+  "pass_rate_clean": "97.3%",
+  "failure_mode_breakdown": {
+    "FM1_LORE_OVERLOAD": 0,
+    "FM2_PACING_LAG": 2,
+    "FM3_SUBTLE_HOOK": 2,
+    "FM4_SEMANTIC_MISMATCH": 0
+  },
+  "failure_taxonomy": {
+    "FM1_LORE_OVERLOAD": {
+      "name": "Late-Show Lore Bleed",
+      "description": "High cliffhanger score but relies heavily on intricate late-season character lore that baffles a first-time viewer on TikTok.",
+      "mitigation": "Editor should restrict Tier-1 ad spend to Episodes 1-10, or add a 2-second on-screen context card."
+    },
+    "FM2_PACING_LAG": {
+      "name": "Vertical Pacing Lag",
+      "description": "Clip duration is > 35s with sparse dialogue (< 3 lines), relying on atmospheric staring that scrollers swipe away from.",
+      "mitigation": "Editor should trim internal silent reaction shots to compress duration down to 20-25s."
+    },
+    "FM3_SUBTLE_HOOK": {
+      "name": "Subtle Opening Setup",
+      "description": "Clip begins with polite or ambiguous setup lines before the explosive conflict hits 6 seconds in (missing the 3-second hook window).",
+      "mitigation": "Snip the opening 3 seconds so the video begins directly on the provocative rebuttal or slap."
+    },
+    "FM4_SEMANTIC_MISMATCH": {
+      "name": "Physical vs Lexical Disconnect",
+      "description": "Dramatic text description (e.g. 'cold gaze') that does not translate to visceral visual shock without specialized camera work.",
+      "mitigation": "Review storyboard/video rough cut to ensure actor expression carries sufficient kinetic energy."
+    }
+  },
+  "representative_edge_cases": [
+    {
+      "episode": 24,
+      "episode_title": "episode-024-Episode 1678577.txt",
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": 24,
+          "start_time": "00:03.50",
+          "end_time": "00:36.80",
+          "duration_s": 33.3
+        }
+      ],
+      "total_duration_s": 33.3,
+      "hook_first_3s": "NOBLEWOMAN: \"\"Who are you?\"\"",
+      "cliffhanger_cut": "LADY JULIANA: \"\"I cannot do that.\"\" NOBLEWOMAN: \"\"You are a maid.\"\"",
+      "one_line_why_it_works": "High narrative escalation cutting at peak tension ('LADY JULIANA: \"\"I cannot do that.\"\" NOBLEWOMAN: \"\"You are a ...'), compelling scrollers to download Kuku to see the payoff.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 7.0,
+      "composite_score": 6.9,
+      "posting_priority": "Post Second (Mid-Funnel Conversion)",
+      "dialogue_preview": "NOBLEWOMAN: \"\"Who are you?\"\" | LADY JULIANA: \"\"Juliana, my lady. I was hired for the winter cleaning.\"\" | NOBLEWOMAN: \"\"And who gave you permission to enter this chamber?\"\" | LADY JULIANA: \"\"I heard her. I thought Her Grace needed help.\"\" | NOBLEWOMAN: \"\"You thought? A new maid thinks she knows bett...",
+      "global_rank": 14,
+      "posting_strategy": "Tier 2: Escalation & Retargeting Ads (Post Second for Binge Conversion)",
+      "quality_flags": [
+        {
+          "mode": "FM3_SUBTLE_HOOK",
+          "details": "Strong ending cliffhanger, but the opening 3 seconds lack an immediate scroll-stopping punch. Editor should trim intro."
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "episode_title": "episode-001-Episode 1671703.txt",
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": 1,
+          "start_time": "01:55.20",
+          "end_time": "02:18.00",
+          "duration_s": 22.8
+        }
+      ],
+      "total_duration_s": 22.8,
+      "hook_first_3s": "LADY JULIANA: \"\"So that is what I was worth to you?\"\"",
+      "cliffhanger_cut": "Juliana's hand clenches fiercely into the folds of her mother's silk bridal gown, knuckles whitening with suppressed fury.",
+      "one_line_why_it_works": "High narrative escalation cutting at peak tension ('Juliana's hand clenches fiercely into the folds of her mothe...'), compelling scrollers to download Kuku to see the payoff.",
+      "hook_score": 3.5,
+      "cliffhanger_score": 8.5,
+      "standalone_score": 9.0,
+      "composite_score": 6.62,
+      "posting_priority": "Post Second (Mid-Funnel Conversion)",
+      "dialogue_preview": "LADY JULIANA: \"\"So that is what I was worth to you?\"\" | THE FORMER GROOM: \"\"You have nothing to offer me anymore.\"\" | THE FORMER GROOM: \"\"I cannot marry a woman of such plainness and low value...\"\" | THE FORMER GROOM: \"\"...when Clarissa is the true jewel of the county.\"\"",
+      "global_rank": 28,
+      "posting_strategy": "Tier 2: Escalation & Retargeting Ads (Post Second for Binge Conversion)",
+      "quality_flags": [
+        {
+          "mode": "FM3_SUBTLE_HOOK",
+          "details": "Strong ending cliffhanger, but the opening 3 seconds lack an immediate scroll-stopping punch. Editor should trim intro."
+        }
+      ]
+    },
+    {
+      "episode": 46,
+      "episode_title": "episode-046-Episode 1688395.txt",
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": 46,
+          "start_time": "01:32.50",
+          "end_time": "02:16.00",
+          "duration_s": 43.5
+        }
+      ],
+      "total_duration_s": 43.5,
+      "hook_first_3s": "HIGH PRIEST: \"\"God did not marry you. A frightened parishioner did, without leave, without license, without the Crown's blessing!\"\"",
+      "cliffhanger_cut": "ALEXANDER: \"\"Lower them! Or explain to the Crown why its own bailiffs raised iron on the Duke it just confirmed!\"\"",
+      "one_line_why_it_works": "Builds strong character tension (43.5s) but relies slightly more on emotional context.",
+      "hook_score": 6.3,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 9.0,
+      "composite_score": 6.52,
+      "posting_priority": "Post Later (Supporting Lore)",
+      "dialogue_preview": "HIGH PRIEST: \"\"God did not marry you. A frightened parishioner did, without leave, without license, without the Crown's blessing!\"\" | HIGH PRIEST: \"\"And I have the power to undo in one hearing what took you three years to steal!\"\" | ALEXANDER: \"\"A Duke's marriage is judged by the Crown's peerage cou...",
+      "global_rank": 35,
+      "posting_strategy": "Tier 3: Organic Episodic Promos (Niche / Lore Re-engagement)",
+      "quality_flags": [
+        {
+          "mode": "FM2_PACING_LAG",
+          "details": "Clip duration is 43.5s with only 3 dialogue exchanges. Risks swipe-away during visual lulls."
+        }
+      ]
+    },
+    {
+      "episode": 49,
+      "episode_title": "episode-049-Episode 1688398.txt",
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": 49,
+          "start_time": "00:27.50",
+          "end_time": "01:12.20",
+          "duration_s": 44.7
+        }
+      ],
+      "total_duration_s": 44.7,
+      "hook_first_3s": "CATHERINE: \"\"You didn't need them the first time, either. I just prefer my secrets thorough.\"\"",
+      "cliffhanger_cut": "CATHERINE: \"\"Then make certain the council remembers that for the full ten days, not just the first hour.\"\"",
+      "one_line_why_it_works": "Builds strong character tension (44.7s) but relies slightly more on emotional context.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 3.5,
+      "standalone_score": 9.0,
+      "composite_score": 5.08,
+      "posting_priority": "Post Later (Supporting Lore)",
+      "dialogue_preview": "CATHERINE: \"\"You didn't need them the first time, either. I just prefer my secrets thorough.\"\" | FATHER THOMAS: \"\"A priest and a disgraced bride meeting before dawn in her bedchamber. I'd say thoroughness served us both rather well.\"\" | CATHERINE: \"\"It will keep serving us as long as neither of us g...",
+      "global_rank": 126,
+      "posting_strategy": "Tier 3: Organic Episodic Promos (Niche / Lore Re-engagement)",
+      "quality_flags": [
+        {
+          "mode": "FM2_PACING_LAG",
+          "details": "Clip duration is 44.7s with only 3 dialogue exchanges. Risks swipe-away during visual lulls."
+        }
+      ]
+    }
+  ]
+}
